@@ -1,0 +1,94 @@
+.root-pane{
+    -fx-background-color: #FFFFFF;
+}
+
+.cell-dead {
+    -fx-background-color: #0C121D;
+    -fx-border-width: 1;
+    -fx-border-color: #0C6865;
+}
+
+.cell-alive {
+    -fx-background-color: #313A51;
+    -fx-border-width: 1;
+    -fx-border-color: #0C6865;
+}
+
+.top-menu {
+    -fx-background-color: #222C45;
+}
+
+.GridPane {
+    -fx-background-color: #0C6865;
+    -fx-padding: 1;
+}
+
+.button {
+    -fx-background-color: #121A28;
+    -fx-border-color: #0B6865;
+    -fx-border-radius: 2;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: Helvetica;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #39EBA9;
+}
+
+.button-unselected {
+    -fx-background-color: #121A28;
+    -fx-border-color: #f3191b;
+    -fx-border-radius: 2;
+    -fx-border-width: 2;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: Helvetica;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.button-unselected:hover {
+    -fx-background-color: #F30002;
+}
+
+.combo-box {
+    -fx-background: #0C121D;
+    -fx-background-color: #0C121D;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #0B6865;
+    -fx-border-radius: 2;
+    -fx-border-width: 2;
+    -fx-font-size: 20px;
+}
+
+.combo-box > .cell {
+    -fx-font-family: Consolas;
+    -fx-text-fill: #FFFFFF;
+    -fx-cell-size: 1.66667em;
+    -fx-background-color: #0C121D;
+}
+
+.combo-box-popup .cell {
+    -fx-background-color: #0C121D;
+    -fx-text-fill: #FFFFFF;
+}
+
+.combo-box-popup .cell:hover {
+    -fx-background-color: #39EBA9;
+}
+
+.combo-box-popup .list-cell:filled:selected {
+    -fx-background: -fx-accent;
+    /*-fx-background-color: #C2B8E0;*/
+    -fx-text-fill: #FFFFFF;
+}
+
+.combo-box:hover {
+    -fx-background-color: #39EBA9;
+}
+
+.combo-box:hover > .cell {
+    -fx-background-color: #39EBA9;
+}
